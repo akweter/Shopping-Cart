@@ -52,7 +52,7 @@ generatecardItems =() =>{
         label.innerHTML = `
         <div id="checkout-cart">
             <h2>Card is Empty</h2>
-            <a href="index.html">
+            <a href="../index.html">
             <button class="HomeBtn">Back to Home</button>
             </a>
         </div>
