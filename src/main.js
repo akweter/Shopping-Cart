@@ -5,7 +5,7 @@ let shop = document.getElementById('shop');
  *! Basket will return empty array is localStorage is empty.*/
 
 let basket = JSON.parse(localStorage.getItem("data")) || [];
-
+  
 let generateShop = ()=>{ 
     return (shop.innerHTML = shopItemsData.map((x)=>{
         let {id, name, price, desc, img} = x;

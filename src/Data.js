@@ -9,7 +9,7 @@ let shopItemsData = [{
     id: "myT",
     name: "Shirts",
     price:  150,
-    desc: "Buy from James Boutique",
+    desc: "Buy from James Boutique", 
     img: "images/img-2.jpg"
 },
 {

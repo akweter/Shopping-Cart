@@ -11,7 +11,7 @@ let calculation =()=>{
 };
   
 calculation();
-
+  
 generatecardItems =() =>{
     if(basket.length !==0){
         return ShoppingCart.innerHTML = basket.map((x) =>{
