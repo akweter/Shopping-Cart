@@ -6,7 +6,7 @@ let shop = document.getElementById('shop');
 
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 
-let generateShop = ()=>{
+let generateShop = ()=>{ 
     return (shop.innerHTML = shopItemsData.map((x)=>{
         let {id, name, price, desc, img} = x;
         let search = basket.find((y)=> y.id === id) || [];
