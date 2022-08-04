@@ -1,4 +1,4 @@
-### Registration Form withh React.
+### Shoping Cart with PureJs without any library.
 
 # Heroku
 [view it here:](https://akweter.herokuapp.com/)
